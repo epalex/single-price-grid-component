@@ -13,10 +13,6 @@ body {
   margin: 0 auto;
   width: 85%;
   margin-top: 60px;
-  /* height: 80vh; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 ul {
@@ -176,4 +172,58 @@ footer {
   color: darkgrey;
   margin-bottom: 20px;
   margin-top: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  header h2,
+  header p {
+    max-width: unset;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 45%;
+    height: 100vh;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+
+  header h2 {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+  }
+
+  header p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    max-width: 540px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .subscription {
+    padding: 32px 48px;
+  }
+
+  .why-us {
+    flex-grow: 1;
+    padding: 32px 48px;
+  }
 }
