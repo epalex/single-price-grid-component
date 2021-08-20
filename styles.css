@@ -126,6 +126,11 @@ header p {
   width: 100%;
 }
 
+.signup-btn:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
 .why-us {
   padding-left: 24px;
   background-color: #2ab3b1;
