@@ -6,4 +6,169 @@
 
 body {
   font-family: "Karla", sans-serif;
+  background-color: #e6eff5;
+}
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+  margin-top: 60px;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: white;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+h1 {
+  color: #2ab3b1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  padding-bottom: 20px;
+}
+
+header h2 {
+  color: #c0df33;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  max-width: 260px;
+  padding-bottom: 16px;
+}
+
+header p {
+  color: #9aa7be;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.175px;
+  max-width: 260px;
+}
+
+.subscription {
+  padding-left: 24px;
+  background-color: #2ab3b1;
+  padding-top: 18px;
+  padding-bottom: 24px;
+  padding-right: 32px;
+}
+
+.subscription h2 {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  padding-bottom: 16px;
+}
+
+.dollars {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  display: flex;
+  align-items: center;
+}
+
+.month {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+  padding-left: 12px;
+}
+
+.access {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.signup-btn {
+  background-color: #c0df33;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: white;
+  padding: 15px 50px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.why-us {
+  padding-left: 24px;
+  background-color: #2ab3b1;
+  opacity: 0.75;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.why-us h2 {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  margin-bottom: 16px;
+}
+
+.why-us li {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: white;
+  opacity: 0.75;
+}
+
+a {
+  text-decoration: none;
+  color: #c0df33;
+}
+
+.paminos {
+  color: #c0df33;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: darkgrey;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
