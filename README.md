@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/single-price-grid-component
+- Live Site URL: https://epalex.github.io/single-price-grid-component/
 
 ## Built with
 
@@ -14,4 +14,3 @@
 ## Author
 
 - Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
-
